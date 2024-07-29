@@ -1,0 +1,66 @@
+form {
+  max-width: 400px;
+  margin: auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+label {
+  margin-top: 1em;
+  display: block;
+}
+
+input, button {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+}
+
+input:focus, button:hover {
+  border-color: #007BFF;
+  outline: none;
+}
+.nav-menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+}
+
+.nav-menu li {
+  margin: 0 1em;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5em 1em;
+  display: block;
+}
+
+.nav-menu a:hover {
+  background-color: #007BFF;
+  border-radius: 0.5em;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 1em;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+thead {
+  background-color: #f4f4f4;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
