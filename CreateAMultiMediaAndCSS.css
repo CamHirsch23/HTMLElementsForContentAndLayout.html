@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#gallery img {
+    width: 200px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+#gallery img:hover {
+    transform: scale(1.1);
+}
+
+#cta button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#cta button:hover {
+    background-color: darkblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#feedback form {
+    display: flex;
+    flex-direction: column;
+}
+
+#feedback textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+#feedback textarea:focus {
+    border-color: blue;
+}
+
+#feedback button {
+    padding: 10px 20px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#feedback button:hover {
+    background-color: darkgreen;
+}
